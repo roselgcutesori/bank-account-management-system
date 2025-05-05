@@ -11,6 +11,10 @@ CREATE TABLE Users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+ALTER TABLE Users ADD role ENUM('user', 'admin') DEFAULT 'user';
+
+ALTER TABLE Users ADD profile_picture VARCHAR(255) DEFAULT 'default.png';
+
 CREATE TABLE AccessLogs (
     log_id INT PRIMARY KEY AUTO_INCREMENT,
     user_id INT,
