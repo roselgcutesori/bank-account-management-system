@@ -99,7 +99,7 @@ echo "<img src='uploads/" . $user['profile_picture'] . "' width='100' height='10
 <body>
 
 <header>
-    <h1>Bank Account Management System 💖</h1>
+    <h1>🎀Bank Account Management System🎀</h1>
 </header>
 
 <nav>
@@ -113,7 +113,7 @@ echo "<img src='uploads/" . $user['profile_picture'] . "' width='100' height='10
 </nav>
 
 <div class="container">
-    <h2>Welcome, <?php echo $user['name']; ?>! 🌼</h2>
+    <h2>Welcome, <?php echo $user['name']; ?>! 💕</h2>
     <h3>Welcome Panel</h3>
     <p>This is a standard dashboard for our website project.</p>
     <p>You can manage your projects, view the library, and change your password.</p>
